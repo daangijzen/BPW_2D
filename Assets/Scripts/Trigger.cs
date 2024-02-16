@@ -9,9 +9,4 @@ public class Trigger : MonoBehaviour
     {
         DoSomething.Invoke();
     }
-
-    public void OnTriggerStay()
-    {
-        DoSomething.Invoke();
-    }
 }

@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class Intensity : MonoBehaviour
+public class Intesity : MonoBehaviour
 {
     public Light2D lampje;
 
-    public void DoeLampjeFel()
+    public void DoeLampjeFeller()
     {
         lampje.intensity = 10;
     }
 
-    public void DoeMinderFel()
+    public void DoeLampjeDimme()
     {
         lampje.intensity = 1;
     }
 
-    public void DoeWaardeAnders(float waarde)
+    public void DoeLampjeIetsMee(float waarde)
     {
         lampje.intensity = waarde;
     }
